@@ -128,20 +128,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="affichage.cpp" />
-    <ClCompile Include="commande.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="operator.cpp" />
-    <ClCompile Include="traitement.cpp" />
-    <ClCompile Include="tri.cpp" />
+    <ClCompile Include="cpp\affichage.cpp" />
+    <ClCompile Include="cpp\commande.cpp" />
+    <ClCompile Include="cpp\main.cpp" />
+    <ClCompile Include="cpp\operator.cpp" />
+    <ClCompile Include="cpp\traitement.cpp" />
+    <ClCompile Include="cpp\tri.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="affichage.hpp" />
-    <ClInclude Include="commande.hpp" />
-    <ClInclude Include="discographie.hpp" />
-    <ClInclude Include="operator.hpp" />
-    <ClInclude Include="traitement.hpp" />
-    <ClInclude Include="tri.hpp" />
+    <ClInclude Include="hpp\affichage.hpp" />
+    <ClInclude Include="hpp\commande.hpp" />
+    <ClInclude Include="hpp\discographie.hpp" />
+    <ClInclude Include="hpp\operator.hpp" />
+    <ClInclude Include="hpp\traitement.hpp" />
+    <ClInclude Include="hpp\tri.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
