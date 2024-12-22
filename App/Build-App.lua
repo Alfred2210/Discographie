@@ -10,6 +10,7 @@ project "App"
    includedirs
    {
       "Source",
+      "Include",
 
 	  -- Include Core
 	  "../Core/Source"
